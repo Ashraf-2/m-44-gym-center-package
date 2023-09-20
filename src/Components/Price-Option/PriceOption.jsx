@@ -1,5 +1,11 @@
 import PropTypes from 'prop-types';
 import Feature from '../Feature/Feature';
+// import AwesomeButton from 'react-awesome-button/src/components/AwesomeButton';
+
+
+
+
+
 const PriceOption = ({ option }) => {
     const { name, price, features } = option;
     return (
@@ -17,6 +23,7 @@ const PriceOption = ({ option }) => {
             <div>
                 {/* <button className='btn mt-5 w-full text-white font-semibold bg-slate-700 border-2 hover:bg-slate-900 px-5 py-2 rounded-xl text-xl'>Buy Now</button> */}
                 <button className="btn btn-outline w-full bg-green-400">Pick Plan</button>
+                {/* <AwesomeButton type="primary">Primary</AwesomeButton> */}
 
             </div>
         </div>

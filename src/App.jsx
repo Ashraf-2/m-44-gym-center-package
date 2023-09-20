@@ -4,6 +4,7 @@ import './App.css'
 import Nav from './Components/Navbar/Nav'
 import PriceOptions from './Components/Price-Options/PriceOptions'
 import LineCrt from './Components/Line-Chart/LineCrt'
+import Users from './Components/Users-api/Users'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +14,7 @@ function App() {
       <Nav></Nav>
       <PriceOptions></PriceOptions>
       <LineCrt></LineCrt>
+      <Users></Users>
     
     </>
   )
